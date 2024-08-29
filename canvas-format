@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+wl-paste | $PROJECTS_DIR/canvas-formatter/src/main.py | pandoc | wl-copy
