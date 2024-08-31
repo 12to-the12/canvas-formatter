@@ -7,7 +7,7 @@ I wrote this because I refuse to click "insert:math" every time I want to write 
 
 ## Instructions
 ### Installation
-If you're using a Mac or another *NIX system, run $CMDHERE in your terminal to download this repository, then run ./mac-install.sh to install the dependencies, run `linux-install.sh` for linux machines. If you're using a Windows machine or Chromebook, I'm sorry, but this code isn't going to work for you, unless you can figure something out with WSL.
+If you're using a Mac or another *NIX system, run `git clone https://github.com/12to-the12/canvas-formatter.git` in your terminal to download this repository, then run ./mac-install.sh to install the dependencies, run `linux-install.sh` for linux machines. If you're using a Windows machine or Chromebook, I'm sorry, but this code isn't going to work for you, unless you can figure something out with WSL.
 
 ### Usage
 To run the processing script on a mac, type `./mac-run.sh` into your terminal. If you're using linux, use the linux-run.sh script.
