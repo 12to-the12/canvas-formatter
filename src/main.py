@@ -1,4 +1,3 @@
-#!/home/logan/projects/canvas-formatter/.venv/bin/python
 import re, sys
 
 from latex2mathml.converter import convert as latex2mathml

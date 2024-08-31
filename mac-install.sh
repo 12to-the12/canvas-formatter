@@ -8,6 +8,7 @@ echo "Installing pandoc..."
 brew install pandoc
 
 echo "Building virtual environment..."
-make
+python -m venv venv
 
-
+echo "Installing package..."
+./venv/bin/python -m pip install -r ./requirements.txt
