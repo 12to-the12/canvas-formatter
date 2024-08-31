@@ -10,5 +10,8 @@ brew install pandoc
 echo "Building virtual environment..."
 python -m venv venv
 
-echo "Installing package..."
+echo "Upgrading venv..."
+./venv/bin/python -m pip install --upgrade pip
+
+echo "Installing packages..."
 ./venv/bin/python -m pip install -r ./requirements.txt
